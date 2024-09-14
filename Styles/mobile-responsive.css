@@ -1,3 +1,52 @@
 @media screen and (max-width:576px) {
-    
+    /* Navbar-related styles Start Here */
+    .navbar-icon {
+        display: block;
+        color: var(--clr-white-1);
+        font-size: 1.9rem;
+        cursor: pointer;
+      }
+      .navbar ul {
+        display: none;
+      }
+
+      /* Navbar-related styles End Here */
+
+       /* banner styles starts here */
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+      .banner-content {
+        width: 100%;
+      }
+      .banner-content h1 {
+        width: 77%;
+        font-size: 2.25rem;
+      }
+      .banner-content p {
+        width: 74%;
+      }
+      .btn-container {
+        width: 100%;
+        justify-content: space-between;
+      }
+      #btn-join {
+        width: 100%;
+        padding: 1rem 0.5rem;
+      }
+      #btn-special {
+        width: 100%;
+        padding: 1rem 0.5rem;
+      }
+      
+      .workout-number {
+        font-size: 1.875rem;
+      }
+      .video-tutorial {
+        right: 9rem;
+        /* display: none; */
+        top: 15rem;
+      }
 }

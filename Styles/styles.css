@@ -227,46 +227,46 @@ a {
     text-align: left;
   }
   
-  /* habits section styles starts here */
-  .habits {
+  /* habits section related styles starts here */
+  .habit-section {
     margin-top: 6.25rem;
   }
-  .habits-content h1 {
+  .habit-contents h1 {
     color: var(--clr-white-1);
     font-size: 3rem;
     font-weight: var(--black-font);
     text-align: center;
   }
-  .habits-content p {
+  .habit-contents p {
     color: var(--clr-gray-1);
     font-size: 0.75rem;
     text-align: center;
     margin-top: 0.875rem;
   }
-  .habits-img {
+  .habit-img-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
     margin-top: 3.625rem;
   }
-  .habits-img-content {
+  .habit-img-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 79%;
   }
-  .habits-img img {
+  .habit-img-container img {
     width: 100%;
     border-radius: 100%;
   }
-  .habits-img-content h4 {
+  .habit-img-content h4 {
     color: var(--clr-white-1);
     font-size: 1.125rem;
     font-weight: var(--semi-bold-font);
     text-align: center;
     margin-top: 1.875rem;
   }
-  .habits-img-content p {
+  .habit-img-content p {
     color: var(--clr-gray-1);
     font-size: 0.75;
     text-align: center;
